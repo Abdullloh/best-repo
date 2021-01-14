@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+body {
+  background: url(Group.jpg) no-repeat;
+  background-size: cover;
+}
+body::after {
+  content: "";
+  background: black;
+}
+section {
+  height: 450px;
+  width: 350px;
+  border: 1px solid;
+  margin: auto;
+  top: 100px;
+  background: #ffffff;
+}
+h1 {
+  margin: 0;
+}
+.active {
+  background: #e3fbf5;
+  color: #2dc870;
+}
+.payment-method {
+  float: left;
+  margin: 20px 20px;
+  font-size: 30px;
+  border: 1px solid;
+  text-align: center;
+  height: 65px;
+  width: 75px;
+  border-radius: 8px;
+}
+.payment-method:hover {
+  background: #e3fbf5;
+  color: #2dc870;
+}

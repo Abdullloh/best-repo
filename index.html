@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div id="left-block" class="float-left">
+      <h2 id="heading">mycenter</h2>
+      <ul class="ul-list">
+        <li class="list-item"><a class="link-item block-list" href="#"><i class="fas fa-home block-list icon-list"></i>Dashboard</a></li>
+        <li class="list-item"><a class="link-item block-list" href="#"> <i class="fas fa-file block-list icon-list"></i>Admission</a></li>
+        <li class="list-item"><a class="link-item block-list" href="#"><i class="fas fa-book-open block-list icon-list"></i>Subjects</a></li>
+        <li class="list-item"><a class="link-item block-list" href="#"><i class="fas fa-users block-list icon-list"></i>Groups</a></li>
+        <li class="list-item"><a class="link-item block-list" href="#"><i class="fas fa-graduation-cap block-list icon-list"></i>Students</a></li>
+        <li class="list-item"><a class="link-item block-list" href="#"><i class="far fa-calendar-alt block-list icon-list"></i>schedule</a></li>
+        <li class="list-item"><a class="link-item block-list" href="#"><i class="far fa-calendar-check block-list icon-list"></i>Expences</a></li>
+        <li class="list-item"><a class="link-item active block-list"  href="#"><i class="far fa-credit-card block-list active-icon"></i>Payments</a></li>
+      </ul>
+    </div>
+    <section class="float-left">
+      <div id="left-positioned" class="float-left">
+        <img id="img-item" src="assets/imgs/img.jpg" alt="img" width="100%" height="200" />
+        <div id="tutor-info"><h2>Typography</h2>
+        <small style="position: relative; top: -10px;"> Design</small>
+    </div>
+        <div id="instructor"><h3>Instructors</h3>
+        <ul>
+          <li style="list-style: none; left: -40px;"><img id="face" src="assets/imgs/face.jpg" alt="instructor" width="50px" height="50" /> <small style="top: -20px; left: 10px;">Titus Kitamura</small></li>
+        </ul>
+        <span style="background: #d3cfcf; height: 2px; width: 300px; display: inline-block;" > </span>
+        <h3>Lesson days</h3>
+        <form action="#">
+          <input type="radio" id="mon" name="monday" />
+          <label for="mon">Mon </label>
+          <input type="radio" id="tue" name="tuesday" />
+          <label for="tue"> Tue</label>
+          <input type="radio" id="wed" name="wednesday" />
+          <label for="wed"> Wed</label>
+          <input type="radio" id="thur" name="thursday" />
+          <label for="thur"> Thur</label>
+          <input type="radio" id="frid" name="friday" />
+          <label for="frid">Frid </label>
+          <input type="radio" id="sat" name="saturday" />
+          <label for="sat"> Sat</label>
+          <input type="radio" id="sun" name="sunday" />
+          <label for="sun">Sun</label>
+          <input type="reset" name="Reset"> 
+        </form>
+    </div>
+    <span style="background: #d3cfcf; height: 2px; width: 300px; display: inline-block; top: -40px;" > </span>
+        <div class="bottom">
+          <ul class="bottom-list">
+            <li class="bottom-list-item"><i class="far fa-user user-info"></i></i> <b class="bold">14</b> <small class="small">students</small><i class="far fa-user user-info" id="second-user"></i> <b class="bold">480 000UZS</b> <small class="small price">price</small></li>
+          </ul>
+          <button class="active-bottom"> <b>Active </b></button>
+        </div>
+      </div>
+      <div id="right-positioned" class="float-left">
+        <div style="    top: 40px;">
+          <ul class="top-list">
+            <li class="top-list-item"><a class="top-list-link" href=""> Students</a></li>
+            <li class="top-list-item"><a style="color: #09be56;" class="top-list-link " href=""> Attendence</a></li>
+            <li class="top-list-item"><a  class="top-list-link" href=""> Payments</a></li>
+          </ul>
+          <span style="background: #d3cfcf; height: 2px; width: 500px; display: inline-block;" > </span>
+        </div>  
+        <div id="table">
+          <header>
+            <small>01/01/2021 00:00 - 31/12/2021 23:59</small>
+            <small> show absent</small>
+             <button id="attendence-button"> <a id="a-link"  href="">New attendence</a></button>
+          </header>
+          <span style="background: #d3cfcf; height: 2px; width: 500px; display: inline-block;" > </span>
+          <table>
+            <tr>
+               <th class="heading">Course</th>
+               <th class="heading">Instructor</th>
+               <th class="heading">Date</th>
+               <th class="heading">Percentage</th>
+               <th class="heading">Action</th>
+            </tr>
+            <span style="color: #d3cfcf; height: 5px; width: 250px;" ></span>
+               <tr>
+                   <td>
+                       <b>1</b> <img class="tutor-image" src="assets/imgs/face.jpg" alt="face" width="30px" height="30px"><small>design</small>
+                   </td>
+                   <td>
+                      <img class="tutor-image" src="assets/imgs/face.jpg" alt="" width="30px" height="30px"> <small>Brooklyn simmons</small>
+                   </td>  
+                   <td>
+                        <span> 8/30/14</span>
+                   </td> 
+                   <td>
+                      <button class="hundred-percent">100%</button>
+                   </td>
+                   <td>
+                       <button  class="view-button">view</button> <a href=""></a>
+                 </td>
+                </tr>
+                <tr>
+                 <td>
+                   <b>2</b> <img class="tutor-image" src="assets/imgs/face.jpg" alt="face" width="30px" height="30px"><small>design</small>
+                 </td>
+                   <td>
+                    <img class="tutor-image" src="assets/imgs/face.jpg" alt="" width="30px" height="30px"> <small>Brooklyn simmons</small>
+                   </td>  
+                    <td>
+                        <span> 8/30/14</span>
+                    </td> 
+                    <td>
+                      <button id="no-top">75%</button>
+                    </td>
+                    <td>
+                      <button  class="view-button">view</button> <a href=""></a>
+                    </td>
+             </tr>
+             <tr>
+               <td>
+                 <b>3</b> <img class="tutor-image" src="assets/imgs/face.jpg" alt="face" width="30px" height="30px"><small>design</small>
+               </td>
+                 <td>
+                  <img class="tutor-image" src="assets/imgs/face.jpg" alt="" width="30px" height="30px"> <small>Brooklyn simmons</small>
+                 </td>  
+                  <td>
+                      <span> 8/30/14</span>
+                  </td> 
+                  <td>
+                    <button id="no-middle">35%</button>
+                  </td>
+                  <td>
+                    <button  class="view-button">view</button> <a href=""></a>
+                  </td>
+           </tr>
+           <tr>
+             <td>
+               <b>4</b> <img class="tutor-image" src="assets/imgs/face.jpg" alt="face" width="30px" height="30px"><small>design</small>
+             </td>
+               <td>
+                <img class="tutor-image" src="assets/imgs/face.jpg" alt="" width="30px" height="30px"> <small>Brooklyn simmons</small>
+               </td>  
+                <td>
+                    <span> 8/30/14</span>
+                </td> 
+                <td>
+                  <button  class="hundred-percent">100%</button>
+                </td>
+                <td>
+                  <button  class="view-button">view</button> <a href=""></a>
+                </td>
+         </tr>
+         <tr>
+           <td>
+             <b>5</b> <img class="tutor-image" src="assets/imgs/face.jpg" alt="face" width="30px" height="30px"><small>design</small>
+           </td>
+             <td>
+              <img class="tutor-image" src="assets/imgs/face.jpg" alt="" width="30px" height="30px"> <small>Brooklyn simmons</small>
+             </td>  
+              <td>
+                  <span> 8/30/14</span>
+              </td> 
+              <td>
+                <button  class="hundred-percent">100%</button>
+              </td>
+              <td>
+                <button  class="view-button">view</button> <a href=""></a>
+              </td>
+       </tr>
+       <tr>
+         <td>
+           <b>6</b> <img class="tutor-image" src="assets/imgs/face.jpg" alt="face" width="30px" height="30px"><small>design</small>
+         </td>
+           <td>
+            <img class="tutor-image" src="assets/imgs/face.jpg" alt="" width="30px" height="30px"> <small>Brooklyn simmons</small>
+           </td>  
+            <td>
+                <span> 8/30/14</span>
+            </td> 
+            <td>
+              <button  class="hundred-percent">100%</button>
+            </td>
+            <td>
+              <button  class="view-button">view</button> <a href=""></a>
+            </td>
+     </tr>
+     <tr>
+       <td>
+         <b>7</b> <img class="tutor-image" src="assets/imgs/face.jpg" alt="face" width="30px" height="30px"><small>design</small>
+       </td>
+       <td>
+          <img class="tutor-image" src="assets/imgs/face.jpg" alt="" width="30px" height="30px"> <small>Brooklyn simmons</small>
+      </td>  
+      <td>
+          <span> 8/30/14</span>
+      </td> 
+      <td>
+         <button  class="hundred-percent">100%</button>
+      </td>
+      <td>
+        <button class="view-button">view</button> <a href=""></a>
+      </td>
+           </tr>
+           </table>
+         </div>
+       </div>
+     </section>
+     <script src="main.js"></script>
+   </body>
+ </html>
+               
+            
+         
+             
+            
